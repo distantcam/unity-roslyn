@@ -38,3 +38,8 @@
 *.gif    binary
 *.ico    binary
 *.svg    text
+
+# Binaries
+*.dll    binary
+*.exe    binary
+*.pdb    binary
