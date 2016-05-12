@@ -1,0 +1,29 @@
+{
+  "name": "unity-roslyn",
+  "version": "0.1.0",
+  "description": "Support files for compiling Unity projects with Roslyn",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distantcam/unity-roslyn.git"
+  },
+  "author": "distantcam@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/distantcam/unity-roslyn",
+  "files": [
+    "index.js",
+    "scripts",
+    "assets",
+    "roslynsupport"
+  ],
+  "bugs": {
+    "url": "https://github.com/distantcam/unity-roslyn/issues"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "mkdirp": "^0.5.1"
+  }
+}
